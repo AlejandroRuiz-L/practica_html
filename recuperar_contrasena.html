@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles.css">
   <title>Restaurar contraseña</title>
   <style>
     form {
@@ -86,12 +87,16 @@
   <form action="login/user_login.html" method="get">
     <ul>
       <li>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre_completo" placeholder="Nombre completo" required />
+      </li>
+      <li>
         <label for="email">Email: </label>
-        <input type="email" id="email" name="user_email" required />
+        <input type="email" id="email" name="user_email" placeholder="Ingrese su email" required />
       </li>
       <li>
         <label for="new_password">Nueva contraseña: </label>
-        <input type="password" id="new_password" name="nueva_contraseña" required />
+        <input type="password" id="new_password" name="nueva_contraseña" placeholder="Ingrese la contraseña" required />
       </li>
       <li>
         <div>

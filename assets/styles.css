@@ -1,0 +1,16 @@
+body{
+  background: gray;
+  color: black;
+  font-size: 14px;
+}
+
+.boton a:hover{
+  /*esto es una clase*/
+  display: block;
+  background: skyblue;
+  width: 200px;
+}
+#texto{
+  /*Esto es un identificador*/
+  background: skyblue;
+}

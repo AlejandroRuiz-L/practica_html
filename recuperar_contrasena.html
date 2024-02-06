@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de inicio de sesion</title>
+  <title>Restaurar contraseña</title>
   <style>
     form {
       /*centrar el formulario en la pagina*/
@@ -79,31 +79,27 @@
 </head>
 
 <body>
-  <div>
-    <img src="assets/logo 5.jpg" alt="logo 1">
-  </div>
-  <h2>Ingrese sus datos de usuario</h2>
+  <p>A continuacion ingrese su email y la nueva contraseña.
+    <br>
+    Enviaremos un correo con el link de la confirmación del cambio de contraseña.
+  </p>
   <form action="login/user_login.html" method="get">
     <ul>
       <li>
-        <label for="user">Nombre de usuario: </label>
-        <input type="text" id="user" name="User_name" placeholder="Ingrese su usuario" required>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="user_email" required />
       </li>
       <li>
-        <label for="password">Contraseña: </label>
-        <input type="password" id="password" name="user_password" placeholder="Ingrese su contraseña" required />
+        <label for="new_password">Nueva contraseña: </label>
+        <input type="password" id="new_password" name="nueva_contraseña" required />
       </li>
       <li>
         <div>
-          <button type="submit">Iniciar sesion</button>
+          <button type="subbmit">Enviar</button>
         </div>
       </li>
     </ul>
   </form>
-  <div>
-    <a href="recuperar_contrasena.html">Ha olvidado su contraseña?</a>
-  </div>
-
 </body>
 
 </html>

@@ -104,16 +104,21 @@
       </li>
       <li>
         <label for="password">Contraseña</label>
-        <input type="password" id="password" name="user_password" placeholder="Ingrese su contraseña" required />
+        <input type="password" id="password" name="user_password" placeholder="Ingrese su contraseña" maxlength="20"
+          minlength="8" required />
       </li>
       <li>
         <label for="ciudad">Ciudad: </label>
-        <select name="ciudad">
+        <select name="ciudad_usuario" id="ciudad">
           <option value="bogota" selected>Bogotá</option>
           <option value="Bucaramanga">Bucaramanga</option>
           <option value="cali">Cali</option>
           <option value="medellin">Medellin</option>
         </select>
+      </li>
+      <li>
+        <label for="nacimiento">Fecha de nacimiento: </label>
+        <input type="date" id="nacimiento" name="nacimiento_usuario" />
       </li>
       <li>
         <label for="mail">Email</label>

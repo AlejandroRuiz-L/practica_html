@@ -14,3 +14,7 @@ body{
   /*Esto es un identificador*/
   background: skyblue;
 }
+#navegador ul{
+  list-style-type: none;
+  text-align: center;
+}

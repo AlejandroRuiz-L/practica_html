@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #c2c2c2;
+}
+header{
+  background: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: purple;
+  font-family: 'Protest Riot', sans-serif;
+}
+img{
+  max-width: 110px;
+}
+footer{
+  background: #1c1c1c;
+  justify-content: space-between;
+  display: flex;
+}
+ul li a:hover{
+  color: white;
+}
